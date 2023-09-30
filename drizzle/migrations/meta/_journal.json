@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1696045252096,
+      "tag": "0000_graceful_betty_ross",
+      "breakpoints": true
+    }
+  ]
+}

@@ -38,6 +38,7 @@
 	"type": "module",
 	"dependencies": {
 		"@libsql/client": "^0.3.5",
+		"date-and-time": "^3.0.3",
 		"drizzle-orm": "^0.28.6"
 	}
 }

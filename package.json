@@ -12,9 +12,9 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"drizzle:generate": "drizzle-kit generate:sqlite --out ./drizzle/migrations --breakpoints --schema=./drizzle/schema.ts",
 		"drizzle:migrate": "tsx drizzle/migrate",
-		"d:b": "docker build -t carltonj2000/pole .",
-		"d:r": "docker run -p 3000:3000 carltonj2000/pole",
-		"d:p": "docker push carltonj2000/pole"
+		"d:b": "docker build -t carltonj2000/polls .",
+		"d:r": "docker run -p 3000:3000 carltonj2000/polls",
+		"d:p": "docker push carltonj2000/polls"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",

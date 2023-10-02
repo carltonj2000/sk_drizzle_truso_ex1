@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { PageData } from './$types';
 	import PollCard from './poll-card.svelte';
 	const title = 'Polls';
@@ -22,7 +23,7 @@
 		<p class="p-4">No polls have been added</p>
 		<a
 			class="p-2 rounded bg-teal-100 hovwr:bg-teal-100 active:bg-teal-300 text-teal-700"
-			href="/new">Add a Poll</a
+			href="{base}/new">Add a Poll</a
 		>
 	</div>
 {/if}

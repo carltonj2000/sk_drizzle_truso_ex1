@@ -11,4 +11,5 @@ npx tailwindcss init -p
 npm add drizzle-orm @libsql/client
 npm add -D drizzle-kit dotenv tsx
 npm run drizzle:generate
+npm i -D @sveltejs/adapter-node
 ```
